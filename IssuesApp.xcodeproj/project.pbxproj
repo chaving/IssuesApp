@@ -13,6 +13,7 @@
 		5F4C89401FA46F9D0066AC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C893F1FA46F9D0066AC53 /* Assets.xcassets */; };
 		5F4C89431FA46F9D0066AC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4C89411FA46F9D0066AC53 /* LaunchScreen.storyboard */; };
 		5F4C894C1FA474AA0066AC53 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C894B1FA474AA0066AC53 /* LoginViewController.swift */; };
+		5F4C894F1FA481440066AC53 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C894E1FA481440066AC53 /* GlobalState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5F4C89421FA46F9D0066AC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F4C89441FA46F9D0066AC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F4C894B1FA474AA0066AC53 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F4C894E1FA481440066AC53 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 		8E44E2D36AD7268636F3A735 /* Pods_IssuesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IssuesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4285CCCE984B6833582AAAD /* Pods-IssuesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IssuesApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IssuesApp/Pods-IssuesApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F3A6FB95CA627BB8E06FD41B /* Pods-IssuesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IssuesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IssuesApp/Pods-IssuesApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		5F4C89371FA46F9D0066AC53 /* IssuesApp */ = {
 			isa = PBXGroup;
 			children = (
+				5F4C894D1FA481190066AC53 /* Util */,
 				5F4C894A1FA474890066AC53 /* View */,
 				5F4C89381FA46F9D0066AC53 /* AppDelegate.swift */,
 				5F4C893C1FA46F9D0066AC53 /* Main.storyboard */,
@@ -85,6 +88,14 @@
 				5F4C894B1FA474AA0066AC53 /* LoginViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5F4C894D1FA481190066AC53 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5F4C894E1FA481440066AC53 /* GlobalState.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		A5921D9807D3A7BAAB6AD8B6 /* Pods */ = {
@@ -221,6 +232,7 @@
 			files = (
 				5F4C894C1FA474AA0066AC53 /* LoginViewController.swift in Sources */,
 				5F4C89391FA46F9D0066AC53 /* AppDelegate.swift in Sources */,
+				5F4C894F1FA481440066AC53 /* GlobalState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
